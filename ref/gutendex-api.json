@@ -1,0 +1,1299 @@
+//https://gutendex.com/books/?author_year_start=1900
+
+{
+  "count": 34773,
+  "next": "https://gutendex.com/books/?author_year_start=1900&page=2",
+  "previous": null,
+  "results": [
+    {
+      "id": 64317,
+      "title": "The Great Gatsby",
+      "authors": [
+        {
+          "name": "Fitzgerald, F. Scott (Francis Scott)",
+          "birth_year": 1896,
+          "death_year": 1940
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "First loves -- Fiction",
+        "Long Island (N.Y.) -- Fiction",
+        "Married women -- Fiction",
+        "Psychological fiction",
+        "Rich people -- Fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/octet-stream": "https://www.gutenberg.org/files/64317/64317-h.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/64317.html.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/64317/pg64317.cover.medium.jpg",
+        "text/plain": "https://www.gutenberg.org/ebooks/64317.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/64317/64317-0.txt",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/64317.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/64317.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/64317.kindle.images"
+      },
+      "download_count": 26082
+    },
+    {
+      "id": 1661,
+      "title": "The Adventures of Sherlock Holmes",
+      "authors": [
+        {
+          "name": "Doyle, Arthur Conan",
+          "birth_year": 1859,
+          "death_year": 1930
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Detective and mystery stories, English",
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction"
+      ],
+      "bookshelves": [
+        "Banned Books from Anne Haight's list",
+        "Contemporary Reviews",
+        "Detective Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1661/1661-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/1661/1661-h/1661-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1661/pg1661.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/1661/1661-0.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/1661.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1661.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1661.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1661.epub.images"
+      },
+      "download_count": 24583
+    },
+    {
+      "id": 345,
+      "title": "Dracula",
+      "authors": [
+        {
+          "name": "Stoker, Bram",
+          "birth_year": 1847,
+          "death_year": 1912
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Dracula, Count (Fictitious character) -- Fiction",
+        "Epistolary fiction",
+        "Gothic fiction",
+        "Horror tales",
+        "Transylvania (Romania) -- Fiction",
+        "Vampires -- Fiction",
+        "Whitby (England) -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction",
+        "Horror",
+        "Movie Books",
+        "Mystery Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/345/pg345.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/files/345/345-0.zip",
+        "text/html": "https://www.gutenberg.org/files/345/345-h/345-h.htm",
+        "text/plain": "https://www.gutenberg.org/ebooks/345.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/345/345-0.txt",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/345.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/345.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/345.epub.images"
+      },
+      "download_count": 22609
+    },
+    {
+      "id": 174,
+      "title": "The Picture of Dorian Gray",
+      "authors": [
+        {
+          "name": "Wilde, Oscar",
+          "birth_year": 1854,
+          "death_year": 1900
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Appearance (Philosophy) -- Fiction",
+        "Conduct of life -- Fiction",
+        "Didactic fiction",
+        "Great Britain -- History -- Victoria, 1837-1901 -- Fiction",
+        "London (England) -- History -- 1800-1950 -- Fiction",
+        "Paranormal fiction",
+        "Portraits -- Fiction",
+        "Supernatural -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/174/pg174.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/174/174-h.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/174.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/174.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/174/174-0.txt",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/174.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/174.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/174.epub.images"
+      },
+      "download_count": 19203
+    },
+    {
+      "id": 2542,
+      "title": "A Doll's House : a play",
+      "authors": [
+        {
+          "name": "Ibsen, Henrik",
+          "birth_year": 1828,
+          "death_year": 1906
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Man-woman relationships -- Drama",
+        "Marriage -- Drama",
+        "Norwegian drama -- Translations into English",
+        "Wives -- Drama"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2542/pg2542.cover.medium.jpg",
+        "application/zip": "https://www.gutenberg.org/files/2542/2542-0.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/2542/2542-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/2542/2542-h/2542-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/2542.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2542.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2542.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2542.kindle.images"
+      },
+      "download_count": 16072
+    },
+    {
+      "id": 844,
+      "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+      "authors": [
+        {
+          "name": "Wilde, Oscar",
+          "birth_year": 1854,
+          "death_year": 1900
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Comedies",
+        "England -- Drama",
+        "Foundlings -- Drama",
+        "Identity (Psychology) -- Drama"
+      ],
+      "bookshelves": [
+        "Plays"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/844/844-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/844/pg844.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/844/844-0.zip",
+        "text/html": "https://www.gutenberg.org/files/844/844-h/844-h.htm",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/844.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/844.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/844.epub.images"
+      },
+      "download_count": 15787
+    },
+    {
+      "id": 1952,
+      "title": "The Yellow Wallpaper",
+      "authors": [
+        {
+          "name": "Gilman, Charlotte Perkins",
+          "birth_year": 1860,
+          "death_year": 1935
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Feminist fiction",
+        "Married women -- Psychology -- Fiction",
+        "Mentally ill women -- Fiction",
+        "Psychological fiction",
+        "Sex role -- Fiction"
+      ],
+      "bookshelves": [
+        "Gothic Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1952/pg1952.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/1952/1952-0.zip",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/1952/1952-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1952/1952-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/1952.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1952.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1952.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1952.kindle.images"
+      },
+      "download_count": 15505
+    },
+    {
+      "id": 4300,
+      "title": "Ulysses",
+      "authors": [
+        {
+          "name": "Joyce, James",
+          "birth_year": 1882,
+          "death_year": 1941
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Alienation (Social psychology) -- Fiction",
+        "Artists -- Fiction",
+        "City and town life -- Fiction",
+        "Domestic fiction",
+        "Dublin (Ireland) -- Fiction",
+        "Epic literature",
+        "Jewish men -- Fiction",
+        "Male friendship -- Fiction",
+        "Married people -- Fiction",
+        "Psychological fiction"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list",
+        "Best Books Ever Listings",
+        "Erotic Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/4300/4300-h/4300-h.htm",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/4300/4300-0.txt",
+        "application/zip": "https://www.gutenberg.org/files/4300/4300-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/4300/pg4300.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/4300.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/4300.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/4300.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/4300.rdf"
+      },
+      "download_count": 12103
+    },
+    {
+      "id": 76,
+      "title": "Adventures of Huckleberry Finn",
+      "authors": [
+        {
+          "name": "Twain, Mark",
+          "birth_year": 1835,
+          "death_year": 1910
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adventure stories",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Finn, Huckleberry (Fictitious character) -- Fiction",
+        "Fugitive slaves -- Fiction",
+        "Humorous stories",
+        "Male friendship -- Fiction",
+        "Mississippi River -- Fiction",
+        "Missouri -- Fiction",
+        "Race relations -- Fiction",
+        "Runaway children -- Fiction"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list",
+        "Best Books Ever Listings"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/76/76-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/76/pg76.cover.small.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/76/76-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/76.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/76.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/76.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/76.epub.images"
+      },
+      "download_count": 11548
+    },
+    {
+      "id": 5200,
+      "title": "Metamorphosis",
+      "authors": [
+        {
+          "name": "Kafka, Franz",
+          "birth_year": 1883,
+          "death_year": 1924
+        }
+      ],
+      "translators": [
+        {
+          "name": "Wyllie, David (Translator)",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "subjects": [
+        "Metamorphosis -- Fiction",
+        "Psychological fiction"
+      ],
+      "bookshelves": [
+        "Horror"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": true,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/5200/5200-0.zip",
+        "application/zip": "https://www.gutenberg.org/files/5200/5200-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/5200/pg5200.cover.medium.jpg",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/5200/5200-h/5200-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/5200.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/5200.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/5200.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/5200.epub.images"
+      },
+      "download_count": 11500
+    },
+    {
+      "id": 2600,
+      "title": "War and Peace",
+      "authors": [
+        {
+          "name": "Tolstoy, Leo, graf",
+          "birth_year": 1828,
+          "death_year": 1910
+        }
+      ],
+      "translators": [
+        {
+          "name": "Maude, Aylmer",
+          "birth_year": 1858,
+          "death_year": 1938
+        },
+        {
+          "name": "Maude, Louise",
+          "birth_year": 1855,
+          "death_year": 1939
+        }
+      ],
+      "subjects": [
+        "Aristocracy (Social class) -- Russia -- Fiction",
+        "Historical fiction",
+        "Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Fiction",
+        "Russia -- History -- Alexander I, 1801-1825 -- Fiction",
+        "War stories"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Historical Fiction",
+        "Movie Books",
+        "Napoleonic(Bookshelf)",
+        "Opera"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2600/2600-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2600/pg2600.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/2600/2600-0.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/2600.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2600.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2600.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2600.kindle.images"
+      },
+      "download_count": 10872
+    },
+    {
+      "id": 32449,
+      "title": "Japanese Girls and Women: Revised and Enlarged Edition",
+      "authors": [
+        {
+          "name": "Bacon, Alice Mabel",
+          "birth_year": 1858,
+          "death_year": 1918
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Japan -- Social life and customs -- 1868-1912",
+        "Women -- Japan -- Social conditions",
+        "Women -- Japan -- Social life and customs"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/32449/32449-0.zip",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/32449/32449-8.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/32449/32449.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/32449/pg32449.cover.medium.jpg",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/32449/32449-h/32449-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/32449.html.images",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/32449/32449-0.txt",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/32449.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/32449.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/32449.kindle.images"
+      },
+      "download_count": 10632
+    },
+    {
+      "id": 219,
+      "title": "Heart of Darkness",
+      "authors": [
+        {
+          "name": "Conrad, Joseph",
+          "birth_year": 1857,
+          "death_year": 1924
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Africa -- Fiction",
+        "Degeneration -- Fiction",
+        "Europeans -- Africa -- Fiction",
+        "Imperialism -- Fiction",
+        "Psychological fiction",
+        "Trading posts -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/219/pg219.cover.medium.jpg",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/219/219-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/219/219-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/219.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/219.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/219.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/219.epub.images"
+      },
+      "download_count": 10283
+    },
+    {
+      "id": 74,
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "authors": [
+        {
+          "name": "Twain, Mark",
+          "birth_year": 1835,
+          "death_year": 1910
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adventure stories",
+        "Bildungsromans",
+        "Boys -- Fiction",
+        "Child witnesses -- Fiction",
+        "Humorous stories",
+        "Male friendship -- Fiction",
+        "Mississippi River Valley -- Fiction",
+        "Missouri -- Fiction",
+        "Runaway children -- Fiction",
+        "Sawyer, Tom (Fictitious character) -- Fiction"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/74/74-0.zip",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/74/74-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/74/74-0.txt",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/74/pg74.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/74.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/74.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/74.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/74.epub.images"
+      },
+      "download_count": 9551
+    },
+    {
+      "id": 55,
+      "title": "The Wonderful Wizard of Oz",
+      "authors": [
+        {
+          "name": "Baum, L. Frank (Lyman Frank)",
+          "birth_year": 1856,
+          "death_year": 1919
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Courage -- Juvenile fiction",
+        "Cowardly Lion (Fictitious character) -- Juvenile fiction",
+        "Cyclones -- Juvenile fiction",
+        "Dreams -- Juvenile fiction",
+        "Fantasy literature",
+        "Gale, Dorothy (Fictitious character) -- Juvenile fiction",
+        "Good and evil -- Juvenile fiction",
+        "Home -- Juvenile fiction",
+        "Oz (Imaginary place) -- Juvenile fiction",
+        "Scarecrow (Fictitious character from Baum) -- Juvenile fiction",
+        "Tin Woodman (Fictitious character) -- Juvenile fiction",
+        "Toto (Fictitious character) -- Juvenile fiction",
+        "Witches -- Juvenile fiction",
+        "Wizard of Oz (Fictitious character) -- Juvenile fiction"
+      ],
+      "bookshelves": [
+        "Children's Literature",
+        "Fantasy"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/55/55-h/55-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/55/pg55.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/55.html.images",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/55/55-0.txt",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/55.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/55.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/55.epub.images"
+      },
+      "download_count": 9227
+    },
+    {
+      "id": 2852,
+      "title": "The Hound of the Baskervilles",
+      "authors": [
+        {
+          "name": "Doyle, Arthur Conan",
+          "birth_year": 1859,
+          "death_year": 1930
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Blessing and cursing -- Fiction",
+        "Dartmoor (England) -- Fiction",
+        "Detective and mystery stories",
+        "Dogs -- Fiction",
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction"
+      ],
+      "bookshelves": [
+        "Bestsellers, American, 1895-1923",
+        "Detective Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/2852/2852-h/2852-h.htm",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/2852/2852-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2852/pg2852.cover.small.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/2852.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2852.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2852.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2852.kindle.images"
+      },
+      "download_count": 8551
+    },
+    {
+      "id": 58585,
+      "title": "The Prophet",
+      "authors": [
+        {
+          "name": "Gibran, Kahlil",
+          "birth_year": 1883,
+          "death_year": 1931
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Mysticism -- Poetry",
+        "Prose poems, American"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "https://www.gutenberg.org/ebooks/58585.html.images",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/58585/pg58585.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/files/58585/58585-0.zip",
+        "application/zip": "https://www.gutenberg.org/files/58585/58585-h.zip",
+        "text/plain": "https://www.gutenberg.org/ebooks/58585.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/58585/58585-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/58585.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/58585.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/58585.epub.images"
+      },
+      "download_count": 8212
+    },
+    {
+      "id": 45,
+      "title": "Anne of Green Gables",
+      "authors": [
+        {
+          "name": "Montgomery, L. M. (Lucy Maud)",
+          "birth_year": 1874,
+          "death_year": 1942
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Bildungsromans",
+        "Canada -- History -- 1867-1914 -- Fiction",
+        "Country life -- Prince Edward Island -- Fiction",
+        "Friendship -- Fiction",
+        "Girls -- Fiction",
+        "Islands -- Fiction",
+        "Orphans -- Fiction",
+        "Prince Edward Island -- History -- 20th century -- Fiction",
+        "Shirley, Anne (Fictitious character) -- Fiction"
+      ],
+      "bookshelves": [
+        "Canada",
+        "Children's Literature"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/45/pg45.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/45/45-0.zip",
+        "application/octet-stream": "https://www.gutenberg.org/files/45/45-h.zip",
+        "text/html": "https://www.gutenberg.org/files/45/45-h/45-h.htm",
+        "text/plain": "https://www.gutenberg.org/ebooks/45.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/45/45-0.txt",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/45.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/45.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/45.epub.images"
+      },
+      "download_count": 7906
+    },
+    {
+      "id": 2814,
+      "title": "Dubliners",
+      "authors": [
+        {
+          "name": "Joyce, James",
+          "birth_year": 1882,
+          "death_year": 1941
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Dublin (Ireland) -- Fiction",
+        "Short stories"
+      ],
+      "bookshelves": [
+        "Banned Books from Anne Haight's list"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2814/pg2814.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/2814/2814-0.zip",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/2814/2814-h/2814-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/2814.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2814.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2814.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2814.kindle.images"
+      },
+      "download_count": 7720
+    },
+    {
+      "id": 408,
+      "title": "The Souls of Black Folk",
+      "authors": [
+        {
+          "name": "Du Bois, W. E. B. (William Edward Burghardt)",
+          "birth_year": 1868,
+          "death_year": 1963
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "African Americans"
+      ],
+      "bookshelves": [
+        "African American Writers"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/408/408-h/408-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/408/pg408.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/408/408-0.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/408/408-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/408.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/408.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/408.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/408.epub.images"
+      },
+      "download_count": 7433
+    },
+    {
+      "id": 35,
+      "title": "The Time Machine",
+      "authors": [
+        {
+          "name": "Wells, H. G. (Herbert George)",
+          "birth_year": 1866,
+          "death_year": 1946
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Dystopias -- Fiction",
+        "Science fiction",
+        "Time travel -- Fiction"
+      ],
+      "bookshelves": [
+        "Movie Books",
+        "Science Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/35/35-h/35-h.htm",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/35/35-0.txt",
+        "application/zip": "https://www.gutenberg.org/files/35/35-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/35/pg35.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/35.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/35.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/35.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/35.epub.images"
+      },
+      "download_count": 7284
+    },
+    {
+      "id": 16,
+      "title": "Peter Pan",
+      "authors": [
+        {
+          "name": "Barrie, J. M. (James Matthew)",
+          "birth_year": 1860,
+          "death_year": 1937
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Fairies -- Fiction",
+        "Fantasy literature",
+        "Never-Never Land (Imaginary place) -- Fiction",
+        "Peter Pan (Fictitious character) -- Fiction",
+        "Pirates -- Fiction"
+      ],
+      "bookshelves": [
+        "Children's Literature",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/16/16-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/16/pg16.cover.medium.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/16/16-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/16/16-h/16-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/16.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/16.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/16.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/16.epub.images"
+      },
+      "download_count": 7258
+    },
+    {
+      "id": 67098,
+      "title": "Winnie-the-Pooh",
+      "authors": [
+        {
+          "name": "Milne, A. A. (Alan Alexander)",
+          "birth_year": 1882,
+          "death_year": 1956
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Christopher Robin (Fictitious character) -- Juvenile fiction",
+        "Eeyore (Fictitious character) -- Juvenile fiction",
+        "Piglet (Fictitious character) -- Juvenile fiction",
+        "Teddy bears -- Juvenile fiction",
+        "Toys -- Juvenile fiction",
+        "Winnie-the-Pooh (Fictitious character) -- Juvenile fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "https://www.gutenberg.org/files/67098/67098-h/67098-h.htm",
+        "application/zip": "https://www.gutenberg.org/files/67098/67098-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/67098/pg67098.cover.small.jpg",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/67098.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/67098.epub.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/67098.txt.utf-8",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/67098.kindle.images",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/67098/67098-0.txt"
+      },
+      "download_count": 6476
+    },
+    {
+      "id": 160,
+      "title": "The Awakening, and Selected Short Stories",
+      "authors": [
+        {
+          "name": "Chopin, Kate",
+          "birth_year": 1850,
+          "death_year": 1904
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adultery -- Fiction",
+        "Louisiana -- Social life and customs -- Fiction",
+        "New Orleans (La.) -- Fiction",
+        "Self-actualization (Psychology) -- Fiction",
+        "Women -- Louisiana -- New Orleans -- Social conditions -- Fiction"
+      ],
+      "bookshelves": [
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/160/160-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/160/pg160.cover.small.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/160/160-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/160/160-h/160-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/160.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/160.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/160.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/160.epub.images"
+      },
+      "download_count": 6467
+    },
+    {
+      "id": 36,
+      "title": "The War of the Worlds",
+      "authors": [
+        {
+          "name": "Wells, H. G. (Herbert George)",
+          "birth_year": 1866,
+          "death_year": 1946
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Imaginary wars and battles -- Fiction",
+        "Life on other planets -- Fiction",
+        "Mars (Planet) -- Fiction",
+        "Martians -- Fiction",
+        "Science fiction",
+        "Space warfare -- Fiction",
+        "War stories"
+      ],
+      "bookshelves": [
+        "Movie Books",
+        "Science Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html": "https://www.gutenberg.org/files/36/36-h/36-h.htm",
+        "application/octet-stream": "https://www.gutenberg.org/files/36/36-h.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/36/pg36.cover.medium.jpg",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/36/36-0.txt",
+        "text/plain": "https://www.gutenberg.org/ebooks/36.txt.utf-8",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/36.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/36.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/36.epub.images"
+      },
+      "download_count": 6405
+    },
+    {
+      "id": 4363,
+      "title": "Beyond Good and Evil",
+      "authors": [
+        {
+          "name": "Nietzsche, Friedrich Wilhelm",
+          "birth_year": 1844,
+          "death_year": 1900
+        }
+      ],
+      "translators": [
+        {
+          "name": "Zimmern, Helen",
+          "birth_year": 1846,
+          "death_year": 1934
+        }
+      ],
+      "subjects": [
+        "Ethics",
+        "Philosophy, German"
+      ],
+      "bookshelves": [
+        "Atheism",
+        "Philosophy"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/4363/4363-h.zip",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/4363/4363.txt",
+        "application/zip": "https://www.gutenberg.org/files/4363/4363.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/4363/pg4363.cover.medium.jpg",
+        "text/html": "https://www.gutenberg.org/ebooks/4363.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/4363.txt.utf-8",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/4363.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/4363.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/4363.rdf"
+      },
+      "download_count": 6300
+    },
+    {
+      "id": 3825,
+      "title": "Pygmalion",
+      "authors": [
+        {
+          "name": "Shaw, Bernard",
+          "birth_year": 1856,
+          "death_year": 1950
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Comedies",
+        "Flower vending -- Drama",
+        "Linguistics teachers -- Drama",
+        "London (England) -- Drama",
+        "Social classes -- Drama",
+        "Speech and social status -- Drama"
+      ],
+      "bookshelves": [
+        "Plays"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/3825/3825-0.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/3825/pg3825.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/3825/3825-h.zip",
+        "text/html; charset=iso-8859-1": "https://www.gutenberg.org/files/3825/3825-h/3825-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/3825.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/3825.kindle.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/3825.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/3825.rdf"
+      },
+      "download_count": 6126
+    },
+    {
+      "id": 1250,
+      "title": "Anthem",
+      "authors": [
+        {
+          "name": "Rand, Ayn",
+          "birth_year": 1905,
+          "death_year": 1982
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Individuality -- Fiction",
+        "Love stories",
+        "Men -- Psychology -- Fiction",
+        "Psychological fiction",
+        "Science fiction",
+        "Time travel -- Fiction"
+      ],
+      "bookshelves": [
+        "Science Fiction",
+        "Science Fiction by Women"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1250/pg1250.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/1250/1250-0.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1250/1250-0.txt",
+        "text/html; charset=us-ascii": "https://www.gutenberg.org/files/1250/1250-h/1250-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/1250.html.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1250.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1250.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1250.kindle.images"
+      },
+      "download_count": 6076
+    },
+    {
+      "id": 244,
+      "title": "A Study in Scarlet",
+      "authors": [
+        {
+          "name": "Doyle, Arthur Conan",
+          "birth_year": 1859,
+          "death_year": 1930
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Detective and mystery stories",
+        "England -- Fiction",
+        "Holmes, Sherlock (Fictitious character) -- Fiction",
+        "Private investigators -- England -- Fiction"
+      ],
+      "bookshelves": [
+        "Detective Fiction"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "application/zip": "https://www.gutenberg.org/files/244/244.zip",
+        "text/plain; charset=iso-8859-1": "https://www.gutenberg.org/files/244/244-8.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/244/pg244.cover.small.jpg",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/244/244-h/244-h.htm",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/244/244.txt",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/244/244-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/244.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/244.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/244.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/244.epub.images"
+      },
+      "download_count": 6018
+    },
+    {
+      "id": 1399,
+      "title": "Anna Karenina",
+      "authors": [
+        {
+          "name": "Tolstoy, Leo, graf",
+          "birth_year": 1828,
+          "death_year": 1910
+        }
+      ],
+      "translators": [
+        {
+          "name": "Garnett, Constance",
+          "birth_year": 1861,
+          "death_year": 1946
+        }
+      ],
+      "subjects": [
+        "Adultery -- Fiction",
+        "Didactic fiction",
+        "Love stories",
+        "Married women -- Fiction",
+        "Russia -- Fiction"
+      ],
+      "bookshelves": [
+        "Best Books Ever Listings",
+        "Harvard Classics",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/1399/1399-h/1399-h.htm",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/1399/pg1399.cover.small.jpg",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/1399/1399-0.txt",
+        "text/html": "https://www.gutenberg.org/ebooks/1399.html.images",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/1399.epub.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/1399.rdf",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/1399.kindle.images"
+      },
+      "download_count": 6006
+    },
+    {
+      "id": 215,
+      "title": "The Call of the Wild",
+      "authors": [
+        {
+          "name": "London, Jack",
+          "birth_year": 1876,
+          "death_year": 1916
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Adventure stories",
+        "Animal welfare -- Fiction",
+        "Dogs -- Fiction",
+        "Feral dogs -- Fiction",
+        "Klondike River Valley (Yukon) -- Fiction",
+        "Nature stories",
+        "Pet theft -- Fiction",
+        "Sled dogs -- Fiction"
+      ],
+      "bookshelves": [
+        "Adventure",
+        "Animals-Domestic",
+        "Banned Books List from the American Library Association",
+        "Banned Books from Anne Haight's list",
+        "Best Books Ever Listings",
+        "Movie Books"
+      ],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/215/215.zip",
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/215/pg215.cover.small.jpg",
+        "application/zip": "https://www.gutenberg.org/files/215/215-h.zip",
+        "text/plain; charset=utf-8": "https://www.gutenberg.org/files/215/215-0.txt",
+        "text/html; charset=utf-8": "https://www.gutenberg.org/files/215/215-h/215-h.htm",
+        "text/html": "https://www.gutenberg.org/ebooks/215.html.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/215.kindle.images",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/215.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/215.epub.images"
+      },
+      "download_count": 5505
+    },
+    {
+      "id": 2500,
+      "title": "Siddhartha",
+      "authors": [
+        {
+          "name": "Hesse, Hermann",
+          "birth_year": 1877,
+          "death_year": 1962
+        }
+      ],
+      "translators": [],
+      "subjects": [
+        "Brahmans -- Fiction",
+        "Buddhism -- Fiction",
+        "Buddhist philosophy -- Fiction",
+        "Gautama Buddha -- Fiction",
+        "India -- Religion -- Fiction",
+        "India -- Social life and customs -- Fiction",
+        "Self-realization -- Fiction",
+        "Spiritual life -- Fiction"
+      ],
+      "bookshelves": [],
+      "languages": [
+        "en"
+      ],
+      "copyright": false,
+      "media_type": "Text",
+      "formats": {
+        "image/jpeg": "https://www.gutenberg.org/cache/epub/2500/pg2500.cover.medium.jpg",
+        "application/octet-stream": "https://www.gutenberg.org/files/2500/2500-0.zip",
+        "text/html": "https://www.gutenberg.org/ebooks/2500.html.images",
+        "text/plain": "https://www.gutenberg.org/ebooks/2500.txt.utf-8",
+        "text/plain; charset=us-ascii": "https://www.gutenberg.org/files/2500/2500-0.txt",
+        "application/rdf+xml": "https://www.gutenberg.org/ebooks/2500.rdf",
+        "application/epub+zip": "https://www.gutenberg.org/ebooks/2500.epub.images",
+        "application/x-mobipocket-ebook": "https://www.gutenberg.org/ebooks/2500.kindle.images"
+      },
+      "download_count": 5487
+    }
+  ]
+}
