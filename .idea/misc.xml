@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/drawable/ic_favorite_border.xml" value="0.2915" />
+        <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/drawable/ic_favorite_fill.xml" value="0.2915" />
         <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/drawable/ic_loading_svgrepo_com.xml" value="0.2555" />
         <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/layout/favorite_recycler_item.xml" value="0.1" />
         <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/layout/fragment_favorite_books.xml" value="0.36614583333333334" />
         <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/Dev/androids/koltin-mvvm-hilt-retrofit-room/app/src/main/res/layout/fragment_random_books.xml" value="0.36614583333333334" />

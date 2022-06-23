@@ -5,8 +5,7 @@
     android:id="@+id/random_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00ff00"
-    tools:context=".ui.main.RandomBooksFragment">
+    tools:context=".ui.main.randombooks.RandomBooksFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

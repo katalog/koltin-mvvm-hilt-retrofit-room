@@ -1,4 +1,4 @@
-package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main
+package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.randombooks
 
 import android.os.Bundle
 import android.view.View
@@ -8,14 +8,15 @@ import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.databinding.FragmentRandomBoo
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.base.BaseFragment
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class RandomBooksFragment : BaseFragment<FragmentRandomBooksBinding>(FragmentRandomBooksBinding::inflate) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val bookRecyclerAdapter = BookRecyclerAdapter()
+        val bookRecyclerAdapter = BookRecyclerAdapter(viewmodel)
         binding.randomRecycler.adapter = bookRecyclerAdapter
 
-        viewmodel.Booklist.observe(viewLifecycleOwner, Observer {
+        viewmodel.FetchBookList.observe(viewLifecycleOwner, Observer {
             bookRecyclerAdapter.booklist = it as MutableList<Book>
             bookRecyclerAdapter.notifyDataSetChanged()
         })

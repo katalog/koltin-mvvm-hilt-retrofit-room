@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/favorite_recycler_item_layout"
     android:layout_width="match_parent"
     android:layout_height="120dp"
     android:orientation="horizontal"
-    android:padding="5dp"
-    android:id="@+id/random_recycler_item_layout"
-    >
+    android:padding="5dp">
 
     <ImageView
-        android:id="@+id/img_rand_recycler_book"
+        android:id="@+id/img_fav_recycler_book"
         android:layout_width="80dp"
         android:layout_height="match_parent"
         android:contentDescription="@string/random_book_image_describe"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck"
         tools:srcCompat="@tools:sample/avatars" />
 
@@ -27,38 +23,24 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/txt_rand_recycler_title"
+            android:id="@+id/txt_fav_recycler_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="14sp"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/random_txtTitle"
-            android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toTopOf="@+id/imageView" />
+            android:textSize="14sp" />
 
         <TextView
-            android:id="@+id/txt_rand_recycler_author"
+            android:id="@+id/txt_fav_recycler_author"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="14sp"
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:text="@string/random_txtAuthor"
-            android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="@+id/txtTitle"
-            app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+            android:textSize="14sp" />
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <ImageButton
-        android:id="@+id/btn_rand_recycler_favorite"
-        android:layout_width="48dp"
-        android:layout_height="match_parent"
-        android:background="@null"
-        android:clickable="true"
-        android:contentDescription="TODO"
-        android:src="@drawable/ic_favorite_border"
-        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>

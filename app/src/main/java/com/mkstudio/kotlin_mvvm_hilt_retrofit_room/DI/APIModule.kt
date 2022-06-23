@@ -3,10 +3,10 @@ package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DI
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.APIService
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.RetrofitService
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.BuildConfig
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_BASE_URL
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_CONNECT_TIMEOUT
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_READ_TIMEOUT
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_WRITE_TIMEOUT
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util.API_BASE_URL
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util.API_CONNECT_TIMEOUT
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util.API_READ_TIMEOUT
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util.API_WRITE_TIMEOUT
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

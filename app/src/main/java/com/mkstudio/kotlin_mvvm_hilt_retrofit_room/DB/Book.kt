@@ -10,5 +10,5 @@ data class Book(
     val title: String,
     var authorname: String,
     var imgurl: String,
-    val favorite:Boolean = false,
+    var favorite:Boolean = false,
 )

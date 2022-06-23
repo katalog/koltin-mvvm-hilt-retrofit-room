@@ -1,4 +1,4 @@
-package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util
+package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util
 
 /**
  * Used as a wrapper for data that is exposed via a LiveData that represents an event.

@@ -13,9 +13,11 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(private val repo:MainRepository) : ViewModel() {
-    private val _booklist = MutableLiveData<List<Book>>()
-    val Booklist: LiveData<List<Book>> get() = _booklist
+class MainViewModel @Inject constructor(private val repo: MainRepository) : ViewModel() {
+    private val _fetchBookList = MutableLiveData<List<Book>>()
+    val FetchBookList: LiveData<List<Book>> get() = _fetchBookList
+    private val _favoriteBookList = MutableLiveData<MutableList<Book>>()
+    val FavoriteBookList: LiveData<MutableList<Book>> get() = _favoriteBookList
 
     fun getRandomBooks() {
         viewModelScope.launch(Dispatchers.IO) {
@@ -24,7 +26,45 @@ class MainViewModel @Inject constructor(private val repo:MainRepository) : ViewM
                 Log.d("MYTAG", it.toString())
             }
 
-            _booklist.postValue(list)
+            _fetchBookList.postValue(list)
         }
+    }
+
+    fun addFavorite(book: Book) {
+        viewModelScope.launch(Dispatchers.IO) {
+            var b = book
+            b.favorite = true
+
+            val favList = _favoriteBookList.value
+            favList?.let { it.add(b) }
+            _favoriteBookList.postValue(favList)
+
+            repo.insertBook(b)
+            Log.d("MYTAG", "add fav $b")
+        }
+    }
+
+    fun deleteFavorite(book: Book) {
+        viewModelScope.launch(Dispatchers.IO) {
+            var b = book
+            val favList = _favoriteBookList.value
+            favList?.let { it.remove(b) }
+            _favoriteBookList.postValue(favList)
+
+            repo.deleteBook(b.id)
+            Log.d("MYTAG", "del fav $b")
+        }
+    }
+
+    fun getFavorite() {
+        viewModelScope.launch(Dispatchers.IO) {
+            val favbooks = repo.getAllBooks()
+            _favoriteBookList.postValue(favbooks as MutableList<Book>)
+            Log.d("MYTAG", "get fav $favbooks")
+        }
+    }
+
+    fun getFavoriteCache(): List<Book> {
+        return FavoriteBookList.value as List<Book>
     }
 }
