@@ -2,35 +2,36 @@ package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API
 
 import com.google.gson.annotations.SerializedName
 
-data class BookList(
+data class JSONBookList(
     @SerializedName("results")
-    val bookinfo: List<BookInfo>
+    val bookinfo: List<JSONBookInfo>
 )
 
-data class BookInfo(
+data class JSONBookInfo(
     @SerializedName("id")
     val id: Int,
     @SerializedName("title")
     val title:String,
     @SerializedName("authors")
-    val authorinfo: List<AuthorInfo>,
+    val authorinfo: List<JSONAuthorInfo>,
     @SerializedName("formats")
-    val formats: FormatInfo
+    val formats: JSONFormatInfo
 )
 
-data class AuthorInfo(
+data class JSONAuthorInfo(
     @SerializedName("name")
     val name: String
 )
 
-data class FormatInfo(
+data class JSONFormatInfo(
     @SerializedName("image/jpeg")
     val imgurl: String
 )
 
-data class CombinedInfo(
+data class Book(
     val id: Int,
     val title: String,
     var authorname: String,
-    val imgurl: String
+    var imgurl: String,
+    val favorite:Boolean = false,
 )

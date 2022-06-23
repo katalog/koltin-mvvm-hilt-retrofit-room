@@ -3,7 +3,10 @@ package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DI
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.APIService
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.RetrofitService
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.BuildConfig
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Constants
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_BASE_URL
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_CONNECT_TIMEOUT
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_READ_TIMEOUT
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Util.API_WRITE_TIMEOUT
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -25,17 +28,17 @@ object APIModule {
         loggingInterceptor.setLevel(HttpLoggingInterceptor.Level.BODY)
         OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
-            .readTimeout(Constants.API_READ_TIMEOUT, TimeUnit.SECONDS)
-            .writeTimeout(Constants.API_WRITE_TIMEOUT, TimeUnit.SECONDS)
-            .connectTimeout(Constants.API_CONNECT_TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(API_READ_TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(API_WRITE_TIMEOUT, TimeUnit.SECONDS)
+            .connectTimeout(API_CONNECT_TIMEOUT, TimeUnit.SECONDS)
             .retryOnConnectionFailure(true)
             .build()
     } else {
         OkHttpClient
             .Builder()
-            .readTimeout(Constants.API_READ_TIMEOUT, TimeUnit.SECONDS)
-            .writeTimeout(Constants.API_WRITE_TIMEOUT, TimeUnit.SECONDS)
-            .connectTimeout(Constants.API_CONNECT_TIMEOUT, TimeUnit.SECONDS)
+            .readTimeout(API_READ_TIMEOUT, TimeUnit.SECONDS)
+            .writeTimeout(API_WRITE_TIMEOUT, TimeUnit.SECONDS)
+            .connectTimeout(API_CONNECT_TIMEOUT, TimeUnit.SECONDS)
             .retryOnConnectionFailure(true)
             .build()
     }
@@ -44,7 +47,7 @@ object APIModule {
     @Singleton
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl(Constants.API_BASE_URL)
+            .baseUrl(API_BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_random"
+        android:enabled="true"
+        android:icon="@drawable/ic_sharp_random_24"
+        android:title="@string/button_random"
+        />
+    <item
+        android:id="@+id/tab_search"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/button_search"
+        />
+    <item
+        android:id="@+id/tab_favorite"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/button_favorite"
+        />
+</menu>
