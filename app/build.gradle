@@ -15,7 +15,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "com.mkstudio.kotlin_mvvm_hilt_retrofit_room.CustomTestRunner"
     }
 
     buildTypes {
@@ -63,6 +63,13 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-scalars:$retrofit2_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpInterceptorVersion"
 
+    // room
+    def room_version = "2.4.2"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.room:room-ktx:$room_version"
+    kapt("androidx.room:room-compiler:$room_version")
+
     // Hilt dependencies
     implementation "com.google.dagger:hilt-android:$hilt_version"
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.2'
@@ -84,7 +91,12 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     // mockk
-    testImplementation "io.mockk:mockk:$mockVersion"
+    def mockk_vesion = '1.12.4'
+    testImplementation "io.mockk:mockk:$mockk_vesion"
+    //testImplementation "io.mockk:mockk-agent-jvm:$mockk_vesion"
+
+    // robolectric
+    //androidTestImplementation 'org.robolectric:robolectric:4.4'
 
     // mockwebserver
     testImplementation "com.squareup.okhttp3:mockwebserver:4.9.3"

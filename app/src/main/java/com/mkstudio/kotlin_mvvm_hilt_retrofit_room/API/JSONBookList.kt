@@ -27,11 +27,3 @@ data class JSONFormatInfo(
     @SerializedName("image/jpeg")
     val imgurl: String
 )
-
-data class Book(
-    val id: Int,
-    val title: String,
-    var authorname: String,
-    var imgurl: String,
-    val favorite:Boolean = false,
-)

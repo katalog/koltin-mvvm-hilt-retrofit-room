@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.Book
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Repo.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

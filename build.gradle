@@ -29,5 +29,4 @@ ext {
     compileSdkVersion = 32
     retrofit2_version = "2.9.0"
     okhttpInterceptorVersion = '4.9.3'
-    mockVersion = '1.10.5'
 }

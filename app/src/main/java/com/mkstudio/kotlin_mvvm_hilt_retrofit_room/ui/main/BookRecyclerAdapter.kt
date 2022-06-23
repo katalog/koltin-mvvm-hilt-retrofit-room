@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.Book
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.R
 
 class BookRecyclerAdapter(): RecyclerView.Adapter<BookRecyclerAdapter.ViewHolder>() {
@@ -34,7 +34,7 @@ class BookRecyclerAdapter(): RecyclerView.Adapter<BookRecyclerAdapter.ViewHolder
 
         fun bind(data: Book) {
             Glide.with(itemView.context).load(data.imgurl).
-            placeholder(R.drawable.ic_loading_svgrepo_com).
+            placeholder(R.drawable.ic_loading_svgrepo).
             error(R.drawable.ic_baseline_error_outline_24).into(imgBook)
             txtTitle.text = data.title
             txtAuthor.text = data.authorname

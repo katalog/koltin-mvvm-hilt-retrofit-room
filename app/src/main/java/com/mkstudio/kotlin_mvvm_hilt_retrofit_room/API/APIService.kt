@@ -1,5 +1,6 @@
 package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API
 
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import javax.inject.Inject
 
 class APIService @Inject constructor(private val service: RetrofitService) {
@@ -15,7 +16,7 @@ class APIService @Inject constructor(private val service: RetrofitService) {
                 if (it2.authorinfo.isNotEmpty()) {
                     newInfo.authorname = it2.authorinfo.first().name
                 }
-                it2.formats.imgurl?.let { newInfo.imgurl = it }
+                it2.formats.imgurl.let { newInfo.imgurl = it }
 
                 if (newInfo.imgurl.isNotEmpty() and newInfo.authorname.isNotEmpty()) {
                     newlist.add(newInfo)
