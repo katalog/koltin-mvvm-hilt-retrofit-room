@@ -5,9 +5,9 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.databinding.ActivityMainBinding
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.base.Screen
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.SearchBooksFragment
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.favoritebooks.FavoriteBooksFragment
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.randombooks.RandomBooksFragment
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.SearchBooksFragment
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.viewmodel.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 

@@ -3,14 +3,12 @@ package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main
 import android.os.Bundle
 import android.view.View
 import android.widget.SearchView
-import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.databinding.FragmentSearchBooksBinding
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.base.BaseFragment
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.main.randombooks.BookRecyclerAdapter
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.internal.managers.ViewComponentManager
 
 @AndroidEntryPoint
 class SearchBooksFragment : BaseFragment<FragmentSearchBooksBinding>(FragmentSearchBooksBinding::inflate) {

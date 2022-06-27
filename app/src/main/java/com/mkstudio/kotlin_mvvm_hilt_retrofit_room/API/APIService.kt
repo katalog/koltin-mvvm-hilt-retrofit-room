@@ -1,49 +1,34 @@
 package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API
 
-import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
+import android.util.Log
 import javax.inject.Inject
 
 class APIService @Inject constructor(private val service: RetrofitService) {
-    fun getBookList(pageNumber: String): List<Book> {
-        var resp = service.getBookList(pageNumber).execute()
-        val booklist = resp.body()
-        var newlist = listOf<Book>()
-
-        booklist?.let {
-            newlist = makeBookStruct(it)
+    suspend fun getBookList(pageNumber: String): APIResponse<JSONBookList> {
+        return try {
+            val jsonBookList = service.getBookList(pageNumber)
+            if (jsonBookList?.bookinfo?.isEmpty() == true) {
+                APIResponse.DataError(errorCode = NETWORK_RANDOM_ERROR)
+            } else {
+                APIResponse.Success(data = jsonBookList)
+            }
+        } catch (e: Exception) {
+            Log.d("MYTAG", "api random error = ${e.printStackTrace()}")
+            APIResponse.DataError(errorCode = NETWORK_ERROR)
         }
-
-        return newlist
     }
 
-    fun searchBooks(searchquery: String): List<Book> {
-        var resp = service.searchBooks(searchquery).execute()
-        val booklist = resp.body()
-        var newlist = listOf<Book>()
-
-        booklist?.let {
-            newlist = makeBookStruct(it)
-        }
-
-        return newlist
-    }
-
-    private fun makeBookStruct(jsonBookList: JSONBookList): List<Book> {
-        val newlist = mutableListOf<Book>()
-
-        jsonBookList.bookinfo.forEach { bookinfo ->
-            var newInfo = Book(bookinfo.id, bookinfo.title, "", "")
-
-            if (bookinfo.authorinfo.isNotEmpty()) {
-                newInfo.authorname = bookinfo.authorinfo.first().name
+    suspend fun searchBooks(searchquery: String): APIResponse<JSONBookList> {
+        return try {
+            val jsonBookList = service.searchBooks(searchquery)
+            if (jsonBookList?.bookinfo?.isEmpty() == true) {
+                APIResponse.DataError(errorCode = NETWORK_SEARCH_ERROR)
+            } else {
+                APIResponse.Success(data = jsonBookList)
             }
-            bookinfo.formats.imgurl?.let { newInfo.imgurl = it }
-
-            if (newInfo.imgurl.isNotEmpty() and newInfo.authorname.isNotEmpty()) {
-                newlist.add(newInfo)
-            }
+        } catch (e: Exception) {
+            Log.d("MYTAG", "api search error = ${e.printStackTrace()}")
+            APIResponse.DataError(errorCode = NETWORK_ERROR)
         }
-
-        return newlist
     }
 }

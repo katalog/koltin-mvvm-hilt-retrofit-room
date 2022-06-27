@@ -1,6 +1,9 @@
 package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB
 
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 
 @Dao
 interface BookDao {

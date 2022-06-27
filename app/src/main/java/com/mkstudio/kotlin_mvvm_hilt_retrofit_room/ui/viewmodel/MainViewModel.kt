@@ -24,8 +24,10 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
     fun getRandomBooks() {
         viewModelScope.launch(Dispatchers.IO) {
             val list = repo.getRandomBooks()
-            list.isNotEmpty().apply {
+            if ( list.isNotEmpty() )  {
                 _fetchBookList.postValue(list)
+            } else {
+                Log.d("MYTAG", "random empty")
             }
         }
     }
@@ -33,9 +35,10 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
     fun searchBook(searchquery: String) {
         viewModelScope.launch(Dispatchers.IO) {
             val searchBooks = repo.searchBooks(searchquery)
-            searchBooks.isNotEmpty().apply {
+            if ( searchBooks.isNotEmpty() )  {
                 _searchBookList.postValue(searchBooks)
-                Log.d("MYTAG", "search $searchBooks")
+            } else {
+                Log.d("MYTAG", "search empty")
             }
         }
     }

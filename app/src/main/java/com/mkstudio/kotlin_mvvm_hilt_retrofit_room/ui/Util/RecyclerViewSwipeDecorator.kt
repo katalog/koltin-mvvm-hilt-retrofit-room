@@ -3,17 +3,16 @@ package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
-import androidx.recyclerview.widget.RecyclerView
-import android.util.TypedValue
-import android.graphics.Typeface
-import androidx.recyclerview.widget.ItemTouchHelper
-import android.graphics.drawable.GradientDrawable
-import android.graphics.drawable.ColorDrawable
-import androidx.core.content.ContextCompat
 import android.graphics.PorterDuff
+import android.graphics.Typeface
+import android.graphics.drawable.ColorDrawable
+import android.graphics.drawable.GradientDrawable
 import android.text.TextPaint
 import android.util.Log
-import java.lang.Exception
+import android.util.TypedValue
+import androidx.core.content.ContextCompat
+import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.RecyclerView
 
 // https://github.com/xabaras/RecyclerViewSwipeDecorator
 
