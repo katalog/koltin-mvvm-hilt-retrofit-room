@@ -7,4 +7,7 @@ import retrofit2.http.Query
 interface RetrofitService {
     @GET("/books/")
     fun getBookList(@Query("page") pagenumber:String, @Query("languages")lang:String="en"): Call<JSONBookList>
+
+    @GET("/books/")
+    fun searchBooks(@Query("search") searchquery:String, @Query("languages")lang:String="en"): Call<JSONBookList>
 }

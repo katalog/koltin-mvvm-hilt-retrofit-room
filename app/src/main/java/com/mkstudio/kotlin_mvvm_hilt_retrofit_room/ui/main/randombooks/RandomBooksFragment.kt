@@ -10,14 +10,15 @@ import dagger.hilt.android.AndroidEntryPoint
 
 
 @AndroidEntryPoint
-class RandomBooksFragment : BaseFragment<FragmentRandomBooksBinding>(FragmentRandomBooksBinding::inflate) {
+class RandomBooksFragment :
+    BaseFragment<FragmentRandomBooksBinding>(FragmentRandomBooksBinding::inflate) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val bookRecyclerAdapter = BookRecyclerAdapter(viewmodel)
         binding.randomRecycler.adapter = bookRecyclerAdapter
 
         viewmodel.FetchBookList.observe(viewLifecycleOwner, Observer {
-            bookRecyclerAdapter.booklist = it as MutableList<Book>
+            bookRecyclerAdapter.booklist = it as List<Book>
             bookRecyclerAdapter.notifyDataSetChanged()
         })
 

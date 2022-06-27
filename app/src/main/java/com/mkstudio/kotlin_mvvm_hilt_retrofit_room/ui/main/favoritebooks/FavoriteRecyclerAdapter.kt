@@ -22,8 +22,6 @@ class FavoriteRecyclerAdapter(vm: MainViewModel): RecyclerView.Adapter<FavoriteR
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         favoriteBooks = viewmodel.getFavoriteCache() as MutableList<Book>
 
-        Log.d("MYTAG", "*** fav frag $favoriteBooks")
-
         val vh = LayoutInflater.from(parent.context).inflate(R.layout.favorite_recycler_item, parent, false)
         return ViewHolder(vh)
     }

@@ -13,7 +13,7 @@ import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.R
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.viewmodel.MainViewModel
 
 class BookRecyclerAdapter(vm: MainViewModel): RecyclerView.Adapter<BookRecyclerAdapter.ViewHolder>() {
-    var booklist = mutableListOf<Book>()
+    var booklist = listOf<Book>()
     val viewmodel = vm
     lateinit var favoriteBooks: List<Book>
 

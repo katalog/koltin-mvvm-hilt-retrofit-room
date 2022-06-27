@@ -13,6 +13,11 @@ class MainRepository @Inject constructor(private val api:APIService, private val
         return resp
     }
 
+    suspend fun searchBooks(searchquery:String) : List<Book> {
+        val resp = api.searchBooks(searchquery)
+        return resp
+    }
+
     suspend fun getAllBooks() : List<Book> {
         return db.getAllBooks()
     }
