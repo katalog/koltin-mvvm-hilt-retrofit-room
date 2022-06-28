@@ -20,10 +20,10 @@ data class JSONBookInfo(
 
 data class JSONAuthorInfo(
     @SerializedName("name")
-    val name: String
+    var name: String
 )
 
 data class JSONFormatInfo(
     @SerializedName("image/jpeg")
-    val imgurl: String
+    var imgurl: String
 )

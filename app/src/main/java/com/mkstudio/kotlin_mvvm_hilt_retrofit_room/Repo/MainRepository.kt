@@ -4,12 +4,13 @@ import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.APIService
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.API.JSONBookList
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.BookDatabaseService
+import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.Util.API_MAX_PAGE_NUMBER
 import javax.inject.Inject
 import kotlin.random.Random
 
 class MainRepository @Inject constructor(private val api:APIService, private val db:BookDatabaseService){
     suspend fun getRandomBooks(): List<Book> {
-        val nRandom = Random.nextInt(2000) + 1
+        val nRandom = Random.nextInt(API_MAX_PAGE_NUMBER) + 1
         var books = listOf<Book>()
         val response = api.getBookList(nRandom.toString())
         if ( response.isSuccess() ) {

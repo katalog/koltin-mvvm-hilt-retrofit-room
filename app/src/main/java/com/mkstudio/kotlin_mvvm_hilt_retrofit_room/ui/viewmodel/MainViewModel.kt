@@ -8,7 +8,6 @@ import androidx.lifecycle.viewModelScope
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.DB.Book
 import com.mkstudio.kotlin_mvvm_hilt_retrofit_room.Repo.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -20,9 +19,9 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
     val FavoriteBookList: LiveData<MutableList<Book>> get() = _favoriteBookList
 
     fun getRandomBooks() {
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             val list = repo.getRandomBooks()
-            if ( list.isNotEmpty() )  {
+            if (list.isNotEmpty()) {
                 _fetchBookList.postValue(list)
             } else {
                 Log.d("MYTAG", "random empty")
@@ -30,42 +29,44 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
         }
     }
 
-
     fun addFavorite(book: Book) {
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             var b = book
             b.favorite = true
 
-            val favList = _favoriteBookList.value
-            favList?.let { it.add(b) }
+            var favList = _favoriteBookList.value
+            favList = favList ?: mutableListOf<Book>()
+            favList!!.add(b)
             _favoriteBookList.postValue(favList)
 
             repo.insertBook(b)
-            Log.d("MYTAG", "add fav $b")
+            //Log.d("MYTAG", "add fav $b")
         }
     }
 
     fun deleteFavorite(book: Book) {
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             var b = book
             val favList = _favoriteBookList.value
             favList?.let { it.remove(b) }
             _favoriteBookList.postValue(favList)
 
             repo.deleteBook(b.id)
-            Log.d("MYTAG", "del fav $b")
+            //Log.d("MYTAG", "del fav $b")
+            //Log.d("MYTAG", "del ret $favList")
         }
     }
 
     fun getFavorite() {
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             val favbooks = repo.getAllBooks()
             _favoriteBookList.postValue(favbooks as MutableList<Book>)
-            Log.d("MYTAG", "get fav $favbooks")
+            //Log.d("MYTAG", "get fav $favbooks")
         }
     }
 
-    fun getFavoriteCache(): List<Book> {
-        return FavoriteBookList.value as List<Book>
+    fun getFavoriteCache(): MutableList<Book> {
+        //Log.d("MYTAG", "get fav cache ${FavoriteBookList.value}")
+        return FavoriteBookList.value as MutableList<Book>
     }
 }

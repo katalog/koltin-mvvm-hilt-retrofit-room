@@ -24,7 +24,7 @@ import javax.inject.Inject
 
 @HiltAndroidTest
 @RunWith(AndroidJUnit4::class)
-class DatabaseUnitTest {
+class DatabaseTest {
 
     @get:Rule
     var hiltrule = HiltAndroidRule(this)

@@ -20,7 +20,7 @@ class SearchBooksViewModel @Inject constructor(private val repo: MainRepository)
     val SearchFailed: LiveData<Boolean> get() = _searchFailed
 
     fun searchBook(searchquery: String) {
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch {
             val searchBooks = repo.searchBooks(searchquery)
             if ( searchBooks.isNotEmpty() )  {
                 _searchBookList.postValue(searchBooks)

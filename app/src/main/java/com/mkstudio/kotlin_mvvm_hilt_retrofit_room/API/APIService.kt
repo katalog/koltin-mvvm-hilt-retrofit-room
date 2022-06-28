@@ -7,13 +7,13 @@ class APIService @Inject constructor(private val service: RetrofitService) {
     suspend fun getBookList(pageNumber: String): APIResponse<JSONBookList> {
         return try {
             val jsonBookList = service.getBookList(pageNumber)
-            if (jsonBookList.bookinfo.isEmpty() == true) {
-                APIResponse.DataError(errorCode = NETWORK_RANDOM_ERROR)
-            } else {
+            if (jsonBookList.bookinfo.isNotEmpty()) {
                 APIResponse.Success(data = jsonBookList)
+            } else {
+                APIResponse.DataError(errorCode = NETWORK_RANDOM_ERROR)
             }
         } catch (e: Exception) {
-            Log.d("MYTAG", "api random error = ${e.printStackTrace()}")
+            Log.d("MYTAG", "api random error = ${e.stackTraceToString()}")
             APIResponse.DataError(errorCode = NETWORK_ERROR)
         }
     }
@@ -21,13 +21,13 @@ class APIService @Inject constructor(private val service: RetrofitService) {
     suspend fun searchBooks(searchquery: String): APIResponse<JSONBookList> {
         return try {
             val jsonBookList = service.searchBooks(searchquery)
-            if (jsonBookList.bookinfo.isEmpty() == true) {
-                APIResponse.DataError(errorCode = NETWORK_SEARCH_ERROR)
-            } else {
+            if (jsonBookList.bookinfo.isNotEmpty()) {
                 APIResponse.Success(data = jsonBookList)
+            } else {
+                APIResponse.DataError(errorCode = NETWORK_SEARCH_ERROR)
             }
         } catch (e: Exception) {
-            Log.d("MYTAG", "api search error = ${e.printStackTrace()}")
+            Log.d("MYTAG", "api search error = ${e.stackTraceToString()}")
             APIResponse.DataError(errorCode = NETWORK_ERROR)
         }
     }

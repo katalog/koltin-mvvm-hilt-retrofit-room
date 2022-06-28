@@ -35,6 +35,7 @@ class SearchBooksFragment :
         })
 
         searchViewModel.SearchFailed.observe(viewLifecycleOwner, Observer {
+            Log.d("MYTAG", "search failed.....")
             if (it != true) return@Observer
             Toast.makeText(context, R.string.search_failed, Toast.LENGTH_SHORT).show()
         })
@@ -45,11 +46,10 @@ class SearchBooksFragment :
             }
 
             override fun onQueryTextSubmit(p0: String?): Boolean {
-
-                p0?.isNotEmpty().apply {
-                    searchViewModel.searchBook(p0!!)
+                p0?.let {
+                    searchViewModel.searchBook(it)
+                    Log.d("MYTAG", "search click - $it")
                 }
-
                 return true
             }
         })
