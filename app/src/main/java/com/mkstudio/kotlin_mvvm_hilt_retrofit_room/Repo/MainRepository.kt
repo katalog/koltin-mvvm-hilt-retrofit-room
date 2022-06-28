@@ -52,7 +52,10 @@ class MainRepository @Inject constructor(private val api:APIService, private val
             if (bookinfo.authorinfo.isNotEmpty()) {
                 newInfo.authorname = bookinfo.authorinfo.first().name
             }
-            bookinfo.formats.imgurl?.let { newInfo.imgurl = it }
+
+            if ( bookinfo.formats.imgurl.isNotEmpty() ) {
+                newInfo.imgurl = bookinfo.formats.imgurl
+            }
 
             if (newInfo.imgurl.isNotEmpty() and newInfo.authorname.isNotEmpty()) {
                 newlist.add(newInfo)

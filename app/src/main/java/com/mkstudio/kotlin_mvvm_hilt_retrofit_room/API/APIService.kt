@@ -7,7 +7,7 @@ class APIService @Inject constructor(private val service: RetrofitService) {
     suspend fun getBookList(pageNumber: String): APIResponse<JSONBookList> {
         return try {
             val jsonBookList = service.getBookList(pageNumber)
-            if (jsonBookList?.bookinfo?.isEmpty() == true) {
+            if (jsonBookList.bookinfo.isEmpty() == true) {
                 APIResponse.DataError(errorCode = NETWORK_RANDOM_ERROR)
             } else {
                 APIResponse.Success(data = jsonBookList)
@@ -21,7 +21,7 @@ class APIService @Inject constructor(private val service: RetrofitService) {
     suspend fun searchBooks(searchquery: String): APIResponse<JSONBookList> {
         return try {
             val jsonBookList = service.searchBooks(searchquery)
-            if (jsonBookList?.bookinfo?.isEmpty() == true) {
+            if (jsonBookList.bookinfo.isEmpty() == true) {
                 APIResponse.DataError(errorCode = NETWORK_SEARCH_ERROR)
             } else {
                 APIResponse.Success(data = jsonBookList)

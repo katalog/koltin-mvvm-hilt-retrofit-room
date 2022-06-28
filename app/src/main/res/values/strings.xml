@@ -9,4 +9,6 @@
     <string name="random_txtTitle">Title</string>
     <string name="random_txtAuthor">Author</string>
     <string name="random_book_image_describe">book image</string>
+
+    <string name="search_failed">search failed!</string>
 </resources>

@@ -27,5 +27,3 @@ const val NETWORK_ERROR = -2
 const val DEFAULT_ERROR = -3
 const val NETWORK_RANDOM_ERROR = -11
 const val NETWORK_SEARCH_ERROR = -12
-const val CHECK_YOUR_FIELDS = -103
-const val SEARCH_ERROR = -104

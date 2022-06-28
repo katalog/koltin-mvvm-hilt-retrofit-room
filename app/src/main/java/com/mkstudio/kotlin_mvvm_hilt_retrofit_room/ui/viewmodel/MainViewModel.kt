@@ -18,8 +18,6 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
     val FetchBookList: LiveData<List<Book>> get() = _fetchBookList
     private val _favoriteBookList = MutableLiveData<MutableList<Book>>()
     val FavoriteBookList: LiveData<MutableList<Book>> get() = _favoriteBookList
-    private val _searchBookList = MutableLiveData<List<Book>>()
-    val SearchBookList: LiveData<List<Book>> get() = _searchBookList
 
     fun getRandomBooks() {
         viewModelScope.launch(Dispatchers.IO) {
@@ -32,16 +30,6 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
         }
     }
 
-    fun searchBook(searchquery: String) {
-        viewModelScope.launch(Dispatchers.IO) {
-            val searchBooks = repo.searchBooks(searchquery)
-            if ( searchBooks.isNotEmpty() )  {
-                _searchBookList.postValue(searchBooks)
-            } else {
-                Log.d("MYTAG", "search empty")
-            }
-        }
-    }
 
     fun addFavorite(book: Book) {
         viewModelScope.launch(Dispatchers.IO) {
