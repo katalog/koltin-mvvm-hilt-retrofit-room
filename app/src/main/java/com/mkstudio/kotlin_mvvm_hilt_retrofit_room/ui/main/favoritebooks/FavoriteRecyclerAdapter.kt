@@ -42,7 +42,6 @@ class FavoriteRecyclerAdapter(vm: MainViewModel): RecyclerView.Adapter<FavoriteR
             Glide.with(itemView.context).load(data.imgurl).
             placeholder(R.drawable.ic_loading_svgrepo).
             error(R.drawable.ic_baseline_error_outline_24).into(imgBook)
-            Log.d("MYTAG", "fav bind $data")
             txtTitle.text = data.title
             txtAuthor.text = data.authorname
         }

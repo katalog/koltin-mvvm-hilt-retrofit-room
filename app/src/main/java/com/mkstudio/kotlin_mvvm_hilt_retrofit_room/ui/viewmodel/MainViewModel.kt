@@ -23,8 +23,6 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
             val list = repo.getRandomBooks()
             if (list.isNotEmpty()) {
                 _fetchBookList.postValue(list)
-            } else {
-                Log.d("MYTAG", "random empty")
             }
         }
     }
@@ -40,7 +38,6 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
             _favoriteBookList.postValue(favList)
 
             repo.insertBook(b)
-            //Log.d("MYTAG", "add fav $b")
         }
     }
 
@@ -52,8 +49,6 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
             _favoriteBookList.postValue(favList)
 
             repo.deleteBook(b.id)
-            //Log.d("MYTAG", "del fav $b")
-            //Log.d("MYTAG", "del ret $favList")
         }
     }
 
@@ -61,12 +56,10 @@ class MainViewModel @Inject constructor(private val repo: MainRepository) : View
         viewModelScope.launch {
             val favbooks = repo.getAllBooks()
             _favoriteBookList.postValue(favbooks as MutableList<Book>)
-            //Log.d("MYTAG", "get fav $favbooks")
         }
     }
 
     fun getFavoriteCache(): MutableList<Book> {
-        //Log.d("MYTAG", "get fav cache ${FavoriteBookList.value}")
         return FavoriteBookList.value as MutableList<Book>
     }
 }

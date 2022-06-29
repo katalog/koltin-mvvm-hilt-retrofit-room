@@ -19,12 +19,10 @@ import dagger.hilt.android.AndroidEntryPoint
 class SearchBooksFragment :
     BaseFragment<FragmentSearchBooksBinding>(FragmentSearchBooksBinding::inflate) {
 
-    private val searchViewModel: SearchBooksViewModel by viewModels()
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        Log.d("MYTAG", "search frag create **")
+        val searchViewModel: SearchBooksViewModel by viewModels()
 
         val bookRecyclerAdapter = BookRecyclerAdapter(viewmodel)
         binding.searchRecycler.adapter = bookRecyclerAdapter
@@ -35,7 +33,6 @@ class SearchBooksFragment :
         })
 
         searchViewModel.SearchFailed.observe(viewLifecycleOwner, Observer {
-            Log.d("MYTAG", "search failed.....")
             if (it != true) return@Observer
             Toast.makeText(context, R.string.search_failed, Toast.LENGTH_SHORT).show()
         })
@@ -48,7 +45,6 @@ class SearchBooksFragment :
             override fun onQueryTextSubmit(p0: String?): Boolean {
                 p0?.let {
                     searchViewModel.searchBook(it)
-                    Log.d("MYTAG", "search click - $it")
                 }
                 return true
             }
