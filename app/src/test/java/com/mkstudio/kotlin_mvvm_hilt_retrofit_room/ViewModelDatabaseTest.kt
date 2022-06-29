@@ -37,6 +37,8 @@ class ViewModelDatabaseTest {
         val dblist = mutableListOf<Book>()
         val samplebook = TestCaseGenerator().makeDBTestList()[0]
 
+        coEvery { db.insertBook(any()) } returns Unit
+
         repo = MainRepository(api, db)
         viewmodel = MainViewModel(repo)
 
@@ -56,6 +58,8 @@ class ViewModelDatabaseTest {
 
         repo = MainRepository(api, db)
         viewmodel = MainViewModel(repo)
+
+        coEvery { db.insertBook(any()) } returns Unit
 
         (0..2).forEach{
             viewmodel.addFavorite(samplelist[it])
@@ -79,6 +83,9 @@ class ViewModelDatabaseTest {
         repo = MainRepository(api, db)
         viewmodel = MainViewModel(repo)
 
+        coEvery { db.insertBook(any()) } returns Unit
+        coEvery { db.deleteBook(any()) } returns Unit
+
         (0..2).forEach{
             viewmodel.addFavorite(samplelist[it])
             viewmodel.FavoriteBookList.observeForever {  }
@@ -101,6 +108,7 @@ class ViewModelDatabaseTest {
         val dblist = mutableListOf<Book>()
         val samplelist = TestCaseGenerator().makeDBTestList()
 
+        coEvery { db.insertBook(any()) } returns Unit
         coEvery { db.getAllBooks() } returns dblist as List<Book>
 
         repo = MainRepository(api, db)
@@ -121,6 +129,9 @@ class ViewModelDatabaseTest {
         repo = MainRepository(api, db)
         viewmodel = MainViewModel(repo)
 
+        coEvery { db.insertBook(any()) } returns Unit
+        coEvery { db.deleteBook(any()) } returns Unit
+
         (0..2).forEach{
             viewmodel.addFavorite(samplelist[it])
             viewmodel.FavoriteBookList.observeForever {  }
@@ -136,5 +147,25 @@ class ViewModelDatabaseTest {
         assert(list.size == 2)
         assert(list[0].title == samplelist[0].title)
         assert(list[1].imgurl == samplelist[2].imgurl)
+    }
+
+    @Test
+    fun `multiple delete from empty db test`() {
+        val dblist = mutableListOf<Book>()
+        val samplelist = TestCaseGenerator().makeDBTestList()
+
+        repo = MainRepository(api, db)
+        viewmodel = MainViewModel(repo)
+
+        coEvery { db.deleteBook(any()) } returns Unit
+
+        (0..2).forEach{
+            viewmodel.deleteFavorite(samplelist[1])
+            viewmodel.FavoriteBookList.observeForever {  }
+        }
+
+        val list = viewmodel.FavoriteBookList.value
+
+        assert(list == null)
     }
 }
