@@ -67,4 +67,19 @@ class ViewModelSearchTest {
 
         assert(ret == true)
     }
+
+    @Test
+    fun `search success empty test`() {
+        val testList = TestCaseGenerator().makeAPITestEmptyList(true)
+        coEvery { api.searchBooks(any()) } returns testList
+
+        repo = MainRepository(api, db)
+        viewmodel = SearchBooksViewModel(repo)
+
+        viewmodel.searchBook("yiii")
+        viewmodel.SearchBookList.observeForever {  }
+        val list = viewmodel.SearchBookList.value
+
+        assert(list == null)
+    }
 }
