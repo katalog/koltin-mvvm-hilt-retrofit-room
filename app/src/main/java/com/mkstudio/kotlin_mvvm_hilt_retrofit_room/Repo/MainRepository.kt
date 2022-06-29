@@ -50,11 +50,11 @@ class MainRepository @Inject constructor(private val api:APIService, private val
         jsonBookList.bookinfo.forEach { bookinfo ->
             var newInfo = Book(bookinfo.id, bookinfo.title, "", "")
 
-            if (bookinfo.authorinfo.isNotEmpty()) {
+            if (bookinfo.authorinfo?.isNotEmpty() == true) {
                 newInfo.authorname = bookinfo.authorinfo.first().name
             }
 
-            if ( bookinfo.formats.imgurl.isNotEmpty() ) {
+            if (bookinfo.formats?.imgurl?.isNotEmpty() == true) {
                 newInfo.imgurl = bookinfo.formats.imgurl
             }
 

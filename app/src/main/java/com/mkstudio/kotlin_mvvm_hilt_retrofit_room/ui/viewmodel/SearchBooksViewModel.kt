@@ -1,5 +1,6 @@
 package com.mkstudio.kotlin_mvvm_hilt_retrofit_room.ui.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
